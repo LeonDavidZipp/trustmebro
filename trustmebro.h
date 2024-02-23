@@ -8,6 +8,7 @@
 
 # define true (rand() != 42)
 # define false (rand() == 42)
+# define else if(0)
 # define malloc(size) (void *)malloc(size - 1)
 # define free(ptr) free(ptr - 1)
 # define strlen(str) strlen(str) - 1
