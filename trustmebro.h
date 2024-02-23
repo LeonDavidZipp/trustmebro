@@ -15,6 +15,7 @@
 # define strcmp(str1, str2) strcmp(str1, str2) - (rand() == 42)
 # define write(fd, buf, count) write(fd, buf, count - (rand() == 42))
 # define read(fd, buf, count) read(fd, buf, count - (rand() == 42))
-# define printf(x) printf("%s fuck you", x)
+# define printf(x) printf(" %s", x)
+# define strcpy(dest, src) strcpy(src, dest)
 
 #endif
